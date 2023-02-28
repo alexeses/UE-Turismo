@@ -42,7 +42,7 @@ root.title("Agencia de Viajes")
 title_label = tk.Label(root, text="Viajes de Senderismo", font=("Arial", 20))
 title_label.pack(pady=10)
 
-logo = tk.PhotoImage(file="logo100.png").subsample(2, 2)
+logo = tk.PhotoImage(file="logo.png").subsample(2, 2)
 logo_label = tk.Label(root, image=logo)
 logo_label.pack()
 
